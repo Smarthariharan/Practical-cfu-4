@@ -1,0 +1,135 @@
+:root {
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+  --Dark-blue-photography-text: hsl(198, 62%, 26%);
+  --Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-size: 14px;
+  font-family: Barlow;
+}
+.whole {
+  width: 600px;
+  height: 1000px;
+  margin-left: 500px;
+  /* background-color: blue; */
+}
+.head {
+  max-width: 600px;
+  /* background-color: black; */
+  position: relative;
+  height: 350px;
+}
+.navs {
+  color: var(--White);
+  position: absolute;
+  height: fit-content;
+  display: inline-block;
+  margin-left: 280px;
+  margin-top: 20px;
+  /* padding: 20px; */
+  font-size: 13px;
+}
+.navs a {
+  padding: 15px;
+  opacity: 0.6;
+}
+.btn-1 {
+  background-color: var(--White);
+  border: none;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Fraunces;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.img-1 img {
+  max-width: 600px;
+  /* margin-top: -40px; */
+  height: 350px;
+}
+.img-1 {
+  position: absolute;
+}
+.svg-1 {
+  /* background-color: red; */
+  position: absolute;
+  display: inline-block;
+  font-size: 10px;
+
+  margin-top: 25px;
+  padding-left: 20px;
+}
+.h-1 {
+  position: absolute;
+  font-family: Fraunces;
+  color: var(--White);
+  font-size: 40px;
+  padding-left: 170px;
+  padding-top: 50px;
+}
+.svg-2 {
+  color: var(--White);
+  position: absolute;
+  margin-left: 47%;
+  margin-top: 130px;
+}
+.container-1 {
+  height: 230px;
+
+  display: flex;
+  /* background-color: aqua; */
+}
+.con-left {
+  /* background-color: black; */
+  max-width: 266px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 33px;
+  height: 230px;
+}
+.con-right {
+  max-width: 50%;
+  margin-left: 40px;
+  display: inline-block;
+}
+.h2-1 {
+  font-family: Fraunces;
+  max-width: 150px;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+.p-1 {
+  font-size: 9px;
+  /* background-color: red; */
+  max-height: 60px;
+  font-weight: bold;
+  width: 230px;
+}
+.p-2 {
+  font-family: Fraunces;
+  font-weight: bold;
+  /* background-color: red; */
+  max-width: fit-content;
+  border-bottom: 2px solid var(--Yellow);
+}
+.con-2-left {
+  display: inline-block;
+}
+.con-2-right {
+  display: inline-block;
+  /* background-color: aqua; */
+}
+.h2-2 {
+  font-family: Fraunces;
+  max-width: 150px;
+  font-weight: bolder;
+}
